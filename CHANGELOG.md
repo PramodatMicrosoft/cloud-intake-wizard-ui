@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.  
 This format follows [Keep a Changelog](https://keepachangelog.com/) and adheres to [Semantic Versioning](https://semver.org/).
 
+## [v0.1.0] – 2026-04-30
+### Added
+- **JDCP Cloud Intake Wizard React UI scaffold** (forked from `gpt-rag-ui` v2.3.1):
+  - New `frontend-react/` directory with React 18 + Vite + TypeScript scaffold.
+  - Components: `Header`, `Footer`, `Tabs`, `HowToFill`, `HelpfulLinks`, `FaqAccordion`, `ChatPanel` with Text/Voice toggle and quick-start chips ("Start with a sandbox", "New dev environment", "Production workload", "Help me choose services").
+  - Views: `ChatView`, `MyRequestsView`.
+  - JDCP brand styles (`styles.css`): navy `#0c2c54`, gold `#d6a627`, cream `#f3efe6`.
+  - Existing Chainlit code under repo root left untouched.
+
 ## [v2.3.1] – 2026-03-31
 
 ### Fixed
